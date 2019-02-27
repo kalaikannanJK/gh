@@ -1,8 +1,6 @@
 #include <stdio.h>
-
-int main() {
-	
-	int a,b,c;
+void main() {
+int a,b,c;
 scanf("%d",&a);
 scanf("%d",&b);
 scanf("%d",&c);
@@ -19,6 +17,5 @@ else
 {
 printf("%d is greater",c);
 }
-	return 0;
-
+getch();
 }
