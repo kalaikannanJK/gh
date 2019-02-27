@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+int j,k,l;
+scanf("%d%d%d",&j,&k,&l);
+if((j>k)&&(j>l))
+printf("j is greater");
+else if((k>j)&&(k>l))
+printf("k is greater");
+else
+printf("l is greater");
+}
