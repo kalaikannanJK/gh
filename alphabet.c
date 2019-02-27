@@ -1,8 +1,8 @@
 #include<stdio.h>
-int main()
+void main()
 {
-char a;
-scanf("%c",&c);
+char h;
+scanf("%h",&h);
 if(c>='a'&&c<='z'||c>='A'&&C<='z')
 printf("yes");
 else
